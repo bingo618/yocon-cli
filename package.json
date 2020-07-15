@@ -1,0 +1,23 @@
+{
+  "name": "yocon-cli",
+  "version": "1.0.0",
+  "description": "项目脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bingo",
+  "license": "ISC",
+  "bin": {
+    "yocon": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.2",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4"
+  }
+}
